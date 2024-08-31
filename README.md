@@ -2,7 +2,9 @@
 Tools and method for fine-tuning the Gemma 2 model on custom datasets
 
 # Gemma 2
-![Gemma 2](<Gemma 2.png>)
+<p align="center">
+  <img src="Gemma 2.png" />
+</p>
 
 Gemma 2 builds on the foundation of its predecessors by implementing several key architectural improvements and training techniques. These include the use of interleaving local and global attention mechanisms, which enhance the model's ability to handle long sequences, and the Grouped-Query Attention (GQA) method, which optimizes inference speed without sacrificing performance.
 
@@ -15,7 +17,9 @@ In terms of safety and responsibility, the Gemma 2 models are designed with exte
 Despite the advancements, the report also acknowledges the limitations and potential risks of deploying such powerful models. The Gemma 2 team stresses the importance of continued research to address issues like factuality, robustness, and alignment, and to ensure the models are used responsibly in real-world applications.
 
 # Low-Rank Adaptation (LoRA)
-![LoRA](LoRa.png)
+<p align="center">
+  <img src="LoRa.png" />
+</p>
 
 LoRA (Low-Rank Adaptation) is a technique proposed by Microsoft for adapting large language models like GPT-3 to specific tasks in a more efficient way. Traditional fine-tuning requires updating all the parameters of a model, which becomes impractical for very large models due to high computational and storage costs. LoRA addresses this by freezing the pre-trained model weights and introducing small, trainable low-rank matrices into the Transformer layers. This significantly reduces the number of trainable parameters and the memory required for fine-tuning, without compromising performance.
 
